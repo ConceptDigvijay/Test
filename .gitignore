@@ -1,0 +1,43 @@
+# Ganpati Donation System - .gitignore
+
+# PHP
+*.log
+*.cache
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+fpdf.tar.gz
+
+# Don't ignore the template PDF as it's needed
+!templates/receipt_template.pdf
+
+# Database backups (if any)
+*.sql.backup
+*.sql.bak
+
+# Uploaded files (future enhancement)
+uploads/
+receipts/
+
+# Environment specific
+config.local.php
+.env.local

@@ -4,7 +4,7 @@
  * Simplified version for the Ganpati donation project
  */
 
-require_once 'fpdf.php';
+require_once __DIR__ . '/../fpdf/fpdf.php';
 
 class FPDI extends FPDF
 {
